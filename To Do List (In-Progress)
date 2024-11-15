@@ -1,0 +1,14 @@
+list = []
+
+def AddItemtoList(item, list):
+  list.append(item)
+  return list
+
+def RemoveItemfromList(item, list):
+  list.remove(item)
+  return list
+
+AddItemtoList("Test", list)
+
+print(list)
+

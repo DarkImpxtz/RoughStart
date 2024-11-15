@@ -1,0 +1,10 @@
+#Temperature Converter 
+Temp = float(input("Enter the temperature in Celsius: "))
+
+Fahrenheit = (Temp * 9/5) + 32
+
+Kelvin = Temp + 273.15
+
+
+print("Temperature in Fahrenheit is: ", Fahrenheit)
+print("Temperature in Kelvin is: ", Kelvin)

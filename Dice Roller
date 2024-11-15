@@ -1,0 +1,9 @@
+import random
+
+def di_1():
+  return random.randint(1,6)
+
+def di_2():
+  return random.randint(1,6)
+
+print("Your roll is ",di_1(),"and",di_2())
